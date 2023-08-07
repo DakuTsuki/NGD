@@ -7,7 +7,10 @@
     list-style: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
+.message input[type="text"]{
+    padding-left: 37px;
+    color: #fff;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -3860,6 +3863,20 @@ opacity: 0.5;
 }
 
 @media (max-width: 360px) {
+    .slider {
+        width: 246%;
+    }
+    .gra {
+        font-size: 10px;
+        width: 159px;
+    }
+    .image-slider img {
+        width: 150px;
+        height: 147px;
+    }
+    #mobile {
+        margin-top: -9px;
+    }
     #freelance h1 {
         width: 348px;
     }
@@ -3888,7 +3905,7 @@ opacity: 0.5;
         width: 344px;
     }
     .experts p {
-        WIDTH: 341px;
+        WIDTH: 227px;
     }
     .next h1 {
         width: 331px;
@@ -4127,5 +4144,187 @@ opacity: 0.5;
     .emails h5 {
         width: 321px;
         font-size: 16px;
+    }
+}
+@media (max-width: 320px) {
+    .notify {
+        width: 112px;
+    }
+    #freelance h1 {
+        width: 279px;
+    }
+    #freelance h1 {
+        font-size: 20px;
+    }
+    .word {
+        font-size: 20px;
+        left: 11px;
+        top: 121px;
+        letter-spacing: 1.33px;
+    }
+    .grid {
+        padding: 43px 9px;
+    }
+    .tain {
+        width: 130px;
+    }
+    .tain img {
+        width: 128px;
+        height: 125px;
+    }
+    .portfolio {
+        margin-top: -16px;
+        margin-left: 2%;
+    }
+    .screen img {
+        width: 47px;
+    }
+    .find h1 {
+        margin-left: -56px;
+    }
+    .find h1 {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+    .find p {
+        margin-left: -56px;
+    }
+    .image-slider img {
+        width: 135px;
+        height: 133px;
+    }
+    .gra {
+        font-size: 9px;
+        width: 136px;
+    }
+    .arrow {
+        margin-top: -88px;
+        margin-left: 29px;
+    }
+    .experts h1 {
+        font-size: 20px;
+    }
+    .experts p {
+        font-size: 12px;
+    }
+    .experts p {
+        WIDTH: 265px;
+    }
+    .prices {
+        padding: 0 41px;
+    }
+    .pro p {
+        width: 90px;
+    }
+    .experts a {
+        margin-top: -15px;
+        padding: 10px 19px;
+        margin-left: 50px;
+    }
+    .imp h1 {
+        font-size: 24px;
+    }
+    .imp {
+        padding-top: 5px;
+    }
+    .file svg {
+        width: 40px;
+        height: 39px;
+    }
+    .file h3 {
+        font-size: 24px;
+    }
+    .file p {
+        font-size: 11px;
+    }
+    #svg {
+        width: 28px;
+    }
+    #svg {
+     top: 44px;
+    }
+    #ia {
+        width: 100px;
+    }
+    #ia {
+        top: 7px;
+    }
+    #id {
+        left: 204px;
+    }
+    #im {
+        left: 4px;
+        width: 107px;
+        height: 79px;
+    }
+    #ig {
+        left: 114px;
+    }
+    #ig {
+        top: 273px;
+    }
+    .relative-image img {
+        width: 111px;
+        height: 90px;
+    }
+    .get h1 {
+        font-size: 16px;
+    }
+    .get p {
+        margin-left: 30px;
+    }
+    .get p {
+        font-size: 10px;
+        margin-top: 12px;
+        width: 266px;
+    }
+
+    .get a {
+        padding: 6px 16px;
+        font-size: 12px;
+        margin-top: -11px;
+    }
+    .relative-image img {
+        width: 103px;
+        height: 83px;
+    }
+    .relative-image img {
+        left: 215px;
+    }
+    .the-list h1 {
+        font-size: 21px;
+    }
+    .the-list p {
+        width: 307px;
+    }
+    .the-list p {
+        font-size: 10px;
+    }
+    .message input {
+        width: 224px;
+    }
+    #im {
+        top: 198px;
+    }
+    .experts a {
+        font-size: 15px;
+    }
+    .footer {
+        width: 320px;
+    }
+    .footer-container {
+        width: 303px;
+    }
+    #portfolio {
+        padding: 9px 25px;
+        font-size: 11px;
+    }
+    #post {
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    .grid {
+        padding: 43px 0px;
+        margin-left: 29px;
     }
 }
