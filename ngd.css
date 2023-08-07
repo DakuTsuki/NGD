@@ -2479,7 +2479,18 @@ letter-spacing: 2.4px;
         font-size: 15px;
         margin-left: 22px;
     }
-
+    .dropbtn {
+        padding: 7px;
+        font-size: 12px;
+    }
+    .relative-image img {
+        top: 301px;
+        left: 646px;
+    }
+    .prices {
+        width: 808px;
+         }
+         
     .emails {
         width: 376px;
 
@@ -2532,23 +2543,22 @@ letter-spacing: 2.4px;
         justify-content: space-between;
         width: 45px;
     }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -311px;
-        height: 100vh;
-        width: 306px;
-        background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 70px 0 0 10px;
-        transition: 0.3s;
-        z-index: 100;
-    }
-
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -314px;
+    height: 100vh;
+    width: 306px;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 70px 0 0 10px;
+    transition: 0.3s;
+    z-index: 100;
+}
     #close {
         display: none;
     }
@@ -2582,6 +2592,66 @@ width: 233px;
 }           
 }
 @media (max-width: 768px) {
+    .word {
+        top: 130px;
+    }
+    .gra {
+        font-size: 12px;
+        width: 183px;
+    }
+    .arrow {
+        margin-top: -8px;
+        margin-left: 283px;
+    }
+    .image-slider img {
+        width: 189px;
+        height: 187px;
+    }
+    #id {
+        left: 506px;
+        width: 231px;
+    }
+    .get p {
+        width: 470px;
+        margin-left: 163px;
+    }
+    #im {
+        left: 80px;
+        width: 184px;
+    }
+    #ig {
+        left: 350px;
+    }
+    .relative-image img {
+        left: 589px;
+    }
+    .message input {
+        width: 575px;
+    }
+    .price-img span {
+        width: 202px;
+    }
+    .likes, .views {
+        margin-right: 17px;
+    }
+    .prices {
+        width: 735px;
+    }
+    .pro {
+        margin-left: 6px;
+    }
+    .price-img {
+        width: 226px;
+        height: 363px;
+    }
+    .price-img img {
+        width: 226px;
+        height: 224px;
+    }
+    .profile img {
+        width: 50px;
+        height: 50px;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
@@ -2589,7 +2659,7 @@ width: 233px;
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -314px;
         height: 100vh;
         width: 306px;
         background-color: #E3E6F3;
@@ -2598,7 +2668,6 @@ width: 233px;
         transition: 0.3s;
         z-index: 100;
     }
-
     #close {
         display: block;
     }
@@ -2778,15 +2847,142 @@ width: 233px;
 }
 
 @media (max-width: 428px) {
+    .log img {
+        width: 150px;
+        height: 29px;
+    }
     #navbar {
         width: 206px;
     }
-
+    .notify {
+        display: flex;
+        justify-content: space-around;
+        width: 120px;
+    }
     .logo img {
         width: 140px;
         height: 72px;
     }
+    #job {
+        display: none;
+    }
+    #freelance h1 {
+        font-size: 24px;
+        margin-top: -7px;
+        margin-left: 9px;
+        line-height: 25px;
+        width: 421px;
+    }
+    .word {
+        top: 103px;
+        font-size: 20px;
+    left: 216px;
+    }
+    #header {
+        padding: 16px 8px;
+    }
+    .elli img {
+        width: 45px;
+        height: 44px;
+    }
+    .grid {
+        grid-template-areas: "auto auto";
+        padding: 32px 9px;
+    }
+    .portfolio {
+        margin-left: 10%;
+    }
+    #portfolio {
+        padding: 9px 17px;
+        font-size: 14px;
+    }
+    #post {
+        margin-bottom: 25px;
+    }
+    #post {
+        font-size: 14px;
+        padding: 9px 19px;
+    }
+    .our h3 {
+        font-size: 19px;
+    }
+    .screen img {
+        padding-left: 2px;
+        width: 64px;
+    }
+    .find h1 {
+        margin-bottom: 8px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    .find p {
+        font-size: 14px;
+    }
+    .image-slider img {
+        width: 168px;
+        height: 161px;
+    }
+    .gra {
+        top: 47px;
+    }
+    .gra {
+        font-size: 11px;
+        width: 170px;
+    }
+    .slider {
+        width: 221%;
+    }
+    .slider {
+        height: 163px;
+    }
+    .arrow {
+        margin-top: -56px;
+        margin-left: 84px;
+    }
+    .left-arrow, .right-arrow {
+        width: 11px;
+        font-size: 20px;
+        padding: 0px 32px;
+    }
+    .experts h1 {
+        font-size: 25px;
+    }
 
+    .prices {
+        display: block;
+        justify-content: space-between;
+        width: 120%;
+        padding: 0 49px;
+    }
+    .experts p {
+        font-size: 14px;
+        margin-left: 2px;
+        margin-top: 11px;
+        WIDTH: 212px;
+        margin-bottom: 20px;
+    }
+    .comment svg {
+        width: 17px;
+        height: 14px;
+        margin-top: -7px;
+    }
+    .tain {
+        width: 190px;
+    }
+    .pro p {
+        width: 90px;
+        color: #5E6366;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 11px;
+        margin-bottom: 10px;
+    }
+    .tain img {
+        width: 188px;
+        height: 154px;
+    }
     header {
         padding: 17px 19px;
     }
