@@ -628,7 +628,7 @@ header #community {
     line-height: 120%;
     /* 28.8px */
     letter-spacing: 1.2px;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .elevate .button {
@@ -652,7 +652,7 @@ header #community {
 }
 
 input::-webkit-input-placeholder {
-    opacity: 1;
+    opacity: 0.5;
     /*Change the opacity between 0 and 1*/
 }
 
@@ -1063,10 +1063,10 @@ flex-shrink: 0;
     margin-top: -28px;
     margin-left: -3px;
 }
-.likes, .views{
+.likes, .views {
     display: flex;
     align-items: center;
-    margin-top: -5px;
+    margin-top: 2px;
 }
 .likes p,.views p {
     color: #494949;
@@ -1468,7 +1468,7 @@ letter-spacing: 2.4px;
 }
 @media (max-width: 1114px) {
     #header {
-        width: 95%;
+        width: 100%;
         padding: 16px 17px;
     }
     #job {
@@ -2871,12 +2871,12 @@ width: 233px;
         margin-top: -7px;
         margin-left: 9px;
         line-height: 25px;
-        width: 421px;
+        width: 415px;
     }
     .word {
-        top: 103px;
+        top: 98px;
         font-size: 20px;
-    left: 216px;
+        left: 216px;
     }
     #header {
         padding: 16px 8px;
@@ -2890,7 +2890,10 @@ width: 233px;
         padding: 32px 9px;
     }
     .portfolio {
-        margin-left: 10%;
+        margin-left: 12%;
+    }
+    #likes {
+        width: 21px;
     }
     #portfolio {
         padding: 9px 17px;
@@ -2898,6 +2901,9 @@ width: 233px;
     }
     #post {
         margin-bottom: 25px;
+    }
+    #post {
+        margin-left: 24px;
     }
     #post {
         font-size: 14px;
@@ -2908,7 +2914,10 @@ width: 233px;
     }
     .screen img {
         padding-left: 2px;
-        width: 64px;
+        width: 61px;
+    }
+    .slider {
+        overflow-x: hidden;
     }
     .find h1 {
         margin-bottom: 8px;
@@ -2951,23 +2960,140 @@ width: 233px;
     .prices {
         display: block;
         justify-content: space-between;
-        width: 120%;
-        padding: 0 49px;
+        width: 119%;
+        padding: 0 94px;
+    }
+    .price-img {
+        margin-bottom: 38px;
     }
     .experts p {
         font-size: 14px;
-        margin-left: 2px;
+        margin-left: -25px;
         margin-top: 11px;
-        WIDTH: 212px;
+        WIDTH: 353px;
         margin-bottom: 20px;
+    }
+    .bio p {
+        margin-left: 1px;
+        width: 183px;
+    }
+    .experts a {
+        margin-top: 15px;
+        padding: 10px 16px;
+        margin-left: 107px;
+    }
+    .file svg {
+        width: 53px;
+        height: 53px;
+    }
+    .file h3 {
+        font-size: 28px;
+    }
+    .file p {
+        font-size: 15px;
+    }
+    .orders {
+        margin-top: 24px;
     }
     .comment svg {
         width: 17px;
         height: 14px;
         margin-top: -7px;
     }
+    .imp {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .file{
+        position: relative;
+    }
+    #svg {
+        left: 16px;
+        top: 63px;
+        position: absolute;
+        /* padding-top: 9px; */
+    }
+    .relative-image img {
+        width: 116px;
+        height: 96px;
+    }
+    #ia {
+        left: 24px;
+        top: 19px;
+    }
+    #im {
+        left: 14px;
+        width: 144px;
+    }
+    #ig {
+        left: 189px;
+    }
+    #id {
+        top: 10px;
+        left: 279px;
+        width: 140px;
+    }
+    #im {
+        top: 246px;
+    }
+    #ig {
+        top: 300px;
+    }
+    .relative-image img {
+        top: 197px;
+    }
+    .relative-image img {
+        left: 306px;
+    }
+    .get {
+        height: 443px;
+    }
+    .the-list {
+        padding-left: 13px;
+    }
+    .the-list h1 {
+        font-size: 25px;
+    }
+    .the-list p {
+        margin-top: 6px;
+        font-size: 12px;
+        margin-bottom: 22px;
+        width: 399px;
+    }
+    .message input {
+        width: 325px;
+    }
+    .message input {
+        height: 42px;
+    }
+    .message input {
+        padding-left: 21px;
+    }
+    .message #but {
+        width: 82px;
+        height: 45px;
+    }
+    .get h1 {
+        font-size: 21px;
+        padding-top: 80px;
+    }
+    .get p {
+        width: 287px;
+        margin-left: 78px;
+    }
+    .get p {
+        font-size: 13px;
+        margin-top: 12px;
+    }
     .tain {
         width: 190px;
+    }
+    .message input {
+        padding-left: 0px;
+    }
+    .get a {
+        padding: 7px 16px;
+        font-size: 13px;
     }
     .pro p {
         width: 90px;
@@ -3290,7 +3416,7 @@ width: 233px;
     ::placeholder {
         font-size: 15px;
         letter-spacing: 0.2px;
-
+opacity: 0.5;
     }
 
     .elevate .button {
@@ -3351,16 +3477,37 @@ width: 233px;
         width: 414px;
         height: 328px;
     }
-
+    #id {
+        top: 10px;
+        left: 271px;
+        width: 140px;
+    }
+    .relative-image img {
+        left: 290px;
+    }
     .faq h1 {
         font-size: 18px;
         margin-bottom: 2px;
     }
-
+    .message input {
+        width: 302px;
+    }
     .elevate .input[type="text"] {
         width: 196px;
     }
-
+    .footer {
+        padding: 0 14px;
+        width: 415px;
+    }
+    footer span {
+        margin: 0 13px;
+    }
+    #freelance h1 {
+        width: 382px;
+    }
+    .word {
+        font-size: 18px;
+    }
     .about img {
         width: 353px;
         height: 252px;
@@ -3394,17 +3541,85 @@ width: 233px;
 }
 
 @media (max-width: 390px) {
-
+    #freelance h1 {
+        width: 377px;
+    }
+    .word {
+        font-size: 17px;
+    }
+    .tain img {
+        width: 181px;
+        height: 146px;
+    }
     .next h1 {
         width: 390px;
         font-size: 28px;
         line-height: 106%;
     }
-
+    .grid {
+        grid-gap: 0px;
+    }
+    #post {
+        margin-left: 17px;
+    }
     .sponsorbar {
         margin-left: -9px;
     }
-
+    .screen img {
+        padding-left: 2px;
+        width: 58px;
+    }
+    .find h1 {
+        margin-left: -49px;
+    }
+    .find p {
+        margin-left: -47px;
+    }
+    .prices {
+        width: 109%;
+        padding: 0 57px;
+    }
+    .file p {
+        font-size: 14px;
+    }
+    .file svg {
+        width: 49px;
+        height: 49px;
+    }
+    #ia {
+        left: 5px;
+        width: 104px;
+    }
+    #im {
+        left: 4px;
+        width: 120px;
+        height: 84px;
+    }
+    #im {
+        top: 223px;
+    }
+    .relative-image img {
+        left: 267px;
+    }
+    .message input[type="text"]{
+        padding-left: 31px;
+    }
+    .the-list p {
+        width: 379px;
+    }
+    .message input {
+        width: 267px;
+    }
+    #ig {
+        left: 157px;
+    }
+    .get p {
+        margin-left: 54px;
+    }
+    #id {
+        height: 79px;
+        width: 122px;
+    }
     .emails {
         width: 348px;
     }
@@ -3525,6 +3740,50 @@ width: 233px;
 }
 
 @media (max-width: 375px) {
+    #freelance h1 {
+        width: 363px;
+    }
+    .word {
+        font-size: 15px;
+    }
+    .tain img {
+        width: 165px;
+        height: 136px;
+    }
+    .tain {
+        width: 172px;
+    }
+    .portfolio {
+        margin-left: 8%;
+    }
+    .screen img {
+        padding-left: 0px;
+        width: 56px;
+    }
+    .experts a {
+        margin-top: -5px;
+        padding: 10px 14px;
+        margin-left: 70px;
+    }
+    .file p {
+        font-size: 13px;
+    }
+    #svg {
+        left: 10px;
+        top: 58px;
+    }
+    .file h3 {
+        margin-left: 4px;
+    }
+    #id {
+        left: 247px;
+    }
+    .relative-image img {
+        left: 253px;
+    }
+    .the-list p {
+        width: 360px;
+    }
     .next h1 {
         width: 352px;
         font-size: 28px;
@@ -3601,12 +3860,36 @@ width: 233px;
 }
 
 @media (max-width: 360px) {
-
+    #freelance h1 {
+        width: 348px;
+    }
+    #freelance h1 {
+        font-size: 23px;
+    }
+    .word {
+        font-size: 15px;
+        left: 204px;
+        letter-spacing: 1.33px;
+    }
     .logo img {
         width: 127px;
         height: 65px;
+    }.screen img {
+        padding-left: 0px;
+        width: 54px;
     }
-
+    #id {
+        width: 111px;
+    }
+    .relative-image img {
+        left: 241px;
+    }
+    .the-list p {
+        width: 344px;
+    }
+    .experts p {
+        WIDTH: 341px;
+    }
     .next h1 {
         width: 331px;
         font-size: 25px;
