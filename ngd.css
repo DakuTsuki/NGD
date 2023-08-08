@@ -1831,7 +1831,7 @@ letter-spacing: 2.4px;
 
 @media (max-width:884px) {
     .dropbtn {
-        padding: 16px;
+        padding: 13px;
         font-size: 15px;
     }.word {
         top: 144px;
