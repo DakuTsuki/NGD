@@ -207,6 +207,30 @@ color: #fff;
         top: 1057px;
     }
 }
+@media (max-width: 1114px){
+    .message-center {
+        margin: 66px 48px;
+    }
+    .message-center {
+        width: 998px;
+        height: 1420px;
+    }
+    .message-center input {
+        width: 801px;
+        height: 42px;
+    }
+    .drop-image {
+        display: flex;
+        width: 809px;
+    }
+    .message-center textarea {
+        width: 812px;
+    }
+    .links {
+        margin-left: 603px;
+            width: 22%;
+    }
+}
 @media (max-width: 884px) {
     .message-center {
         margin: 67px 35px;
@@ -234,5 +258,105 @@ color: #fff;
         width: 31%;
         margin-top: 27px;
         margin-left: 455px;
+    }
+}
+@media (max-width: 834px) {
+    .full-project h1 {
+        margin-left: 35px;
+    }
+    .message-center {
+        padding-left: 45px;
+    }
+}
+@media (max-width: 820px) {
+    .message-center {
+        margin: 67px 17px;
+    }
+    .message-center {
+        padding-left: 42px;
+    }
+    .message-center {
+        width: 785px;
+        margin-top: 35px;
+    }
+    .full-project h1 {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .message-center {
+        width: 718px;
+    }
+    .message-center input {
+        width: 618px;
+    }
+    .drop-image {
+        width: 618px;
+    }
+    .drop-image ul {
+        width: 573px;
+    }
+    .message-center textarea {
+        width: 618px;
+    }
+    .dropbt input {
+        width: 252px;
+    }
+    .message-center h5 {
+        left: 460px;
+        top: 1012px;
+    }
+    .links {
+        margin-left: 417px;
+    }
+}
+@media (max-width: 428px) {
+    .full-project h1 {
+        font-size: 30px;
+    }
+    .full-project h1 {
+        color: #494949;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 61px;
+        line-height: normal;
+        margin-top: 25px;
+    }
+    .message-center {
+        width: 387px;
+    }
+    .message-center label {
+        font-size: 16px;
+    }
+    .message-center input {
+        width: 329px;
+    }
+    .message-center {
+        padding-left: 24px;
+    }
+    .drop-image {
+        width: 329px;
+    }
+    .drop-image svg {
+        margin-bottom: 8px;
+        margin-top: 11px;
+        width: 47px;
+        margin-left: -15px;
+    }
+    .drop-image h3 {
+        font-size: 15px;
+    }
+    .drop-image h4 {
+        text-align: center;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .drop-image ul {
+        width: 319px;
+    }
+    .drop-image ul li {
+        font-size: 12px;
     }
 }
