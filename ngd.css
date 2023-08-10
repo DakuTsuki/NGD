@@ -1469,6 +1469,7 @@ letter-spacing: 2.4px;
     }
     
 }
+
 @media (max-width: 1114px) {
     #header {
         width: 100%;
@@ -1828,11 +1829,97 @@ letter-spacing: 2.4px;
         padding: 0 0px;
     }
 }
-
+@media (min-width: 885px) {
+    .screen img {
+        padding-left: 30px;
+        width: 16%;
+    }
+    #none{
+        display: none;
+    }
+    .prices {
+        width: 100%;
+    }
+    .grid {
+        grid-template-areas: "auto auto auto";
+    }
+    .image-slider img {
+        width: 89%;
+        height: 79%;
+    }
+    .slider {
+        width: 103%;
+    }
+    .gra {
+        font-size: 11px;
+        width: 90%;
+    }
+    .arrow {
+        margin-top: -5%;
+        margin-left: 38%;
+    }
+    .experts a {
+        gap: 10px;
+        margin-left: 38%;
+    }.price-img span {
+        width: 97%;
+    }
+    #ia {
+        left: 2%;
+    }
+    #im {
+        left: 3%;
+    }
+    .relative-image img {
+        left: 68%;
+    }
+    #ig {
+        left: 40%;
+    }
+    #id {
+        left: 66%;
+    }
+    .get p {
+        width: 77%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 27%;
+    }
+    .message input {
+        width: 80%;
+        height: 56px;
+    }
+    .dropbtn {
+        padding: 0%;
+        font-size: 14px;
+        margin-right: 25%;
+        width: 106%;
+    }
+    #job {
+        width: 62%;
+    }
+    .notify {
+        width: 43%;
+    }
+    .down span {
+        margin-right: 6px;
+        margin-left: 7%;
+    }
+    #job input {
+        width: 70%;
+    }
+    .down {
+        margin-left: 10px;
+    }
+    .down{
+        width: 30%;
+    }
+}
 @media (max-width:884px) {
     .dropbtn {
         padding: 13px;
         font-size: 15px;
+        width: 102%;
     }.word {
         top: 144px;
         font-size: 27px;
@@ -1880,24 +1967,27 @@ letter-spacing: 2.4px;
         height: 142px;
     }
     #ia {
-        left: 87px;
-        top: 29px;
+        left: 7%;
+        top: 2%;
     }
     #im {
-        left: 114px;
-        top: 329px;
-        width: 202px;
+        left: 8%;
+        top: 50%;
+        width: 23%;
     }
     #ig {
-        left: 423px;
-        top: 427px;
+        left: 41%;
+        top: 61%;
     }
     .relative-image img {
-        top: 301px;
-        left: 667px;
+        top: 44%;
+        left: 70%;
+    }
+    .orders {
+        margin-top: 6%;
     }
     #id {
-        left: 610px;
+        left: 68%;
     }
     .get p {
         width: 470px;
@@ -1928,7 +2018,7 @@ letter-spacing: 2.4px;
     .word {
         top: 131px;
         font-size: 27px;
-        left: 299px;
+        left: 33%;
     }
     .tain img {
         width: 240px;
@@ -1946,8 +2036,8 @@ letter-spacing: 2.4px;
         margin-left: 31%;
     }
     .screen img {
-        padding-left: 19px;
-        width: 129px;
+        padding-left: 5%;
+        width: 15%;
     }
     .screen {
         padding: 0 3%;
@@ -1972,46 +2062,54 @@ letter-spacing: 2.4px;
         margin-left: -38px;
     }
     .image-slider img {
-        width: 233px;
-        height: 205px;
+        width: 92%;
+        height: 88%;
     }
     .slider {
-        width: 141%;
+        overflow: hidden;
+    }
+    .slider {
+        width: 101%;
+        height: 88%;
     }
     .swiper {
         margin-top: -8px;
         margin-left: -34px;
     }
     .gra {
-        font-size: 14px;
+        font-size: 12px;
         top: 67px;
-        width: 230px;
+        width: 91%;
     }
     .arrow {
-        margin-top: 2px;
-        margin-left: 307px;
+        margin-top: -4%;
+        margin-left: 39%;
+    }
+    .earn {
+        margin: 0 9%;
+        margin-right: 0;
     }
     .experts h1 {
         font-size: 31px;
-        margin-left: -27px;
+        margin-left: 2%;
     }
     .experts p {
         font-size: 17px;
-        margin-left: -25px;
+        margin-left: 2%;
         margin-top: 15px;
         margin-bottom: 32px;
     }
     .price-img p {
         font-size: 10px;
-        margin-left: -2px;
-        margin-top: 5px;
+        margin-left: 3px;
+        margin-top: 8px;
         margin-bottom: 24px;
     }
     .prices {
         display: flex;
         justify-content: space-between;
-        width: 817px;
-        margin-left: -30px;
+        width: 100%;
+        margin-left: -1%;
     }
     #none{
         display: none;
@@ -2046,14 +2144,13 @@ letter-spacing: 2.4px;
         line-height: normal;
         margin-top: 11px;
         margin-bottom: 10px;
+        margin-left: 3%;
+    }
+    #likes{
+        margin-right: 14%;
     }
     .likes, .views {
-        display: flex;
-        align-items: center;
-        margin-top: 0px;
-        justify-content: space-around;
-        margin-right: 4px;
-        width: 101px;
+        width: 23%;
     }
     .info-name {
         /* margin-left: 15px; */
@@ -2061,31 +2158,59 @@ letter-spacing: 2.4px;
         display: flex;
         justify-content: space-between;
         height: 60px;
+        
+    }
+    #views svg {
+        margin-top: -16px;
+    }
+    .comment {
+        display: flex;
+        align-items: center;
+        width: 57%;
+        margin-left: -16px;
     }
     .comment svg {
-        width: 17px;
-        height: 14px;
-        flex-shrink: 0;
-        margin-top: -17px;
-    }
-    .views{
-        width: 49px;
+        margin-top: -54%;
     }
     .experts a {
         margin-top: 33px;
         color: #FFF;
         font-size: 16px;
         padding: 10px 16px;
-        margin-left: 299px;
+        margin-left: 40%;
     }
     .imp h1 {
         font-size: 31px;
     }
+    .file {
+        position: relative;
+    }
     .file svg {
-        width: 60px;
+        width: 31%;
         height: 60px;
         flex-shrink: 0;
-    }
+}
+#comment svg {
+    width: 17px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-top: -17px;
+    margin-right: 3%;
+}
+.info-name svg {
+    margin-left: 6%;
+    margin-right: -8%;
+}
+
+#svg {
+    left: 17%;
+    top: 44%;
+    width: 38px;
+    height: 32px;
+    position: absolute;
+    margin-right: -8px;
+    padding-top: -9px;
+}
     .file h3 {
         font-size: 32px;
     }
@@ -2317,14 +2442,12 @@ letter-spacing: 2.4px;
     .elevate {
         padding: 64px;
     }
-
     .footer {
         padding: 0 71px;
         display: block;
         justify-content: space-between;
-        width: 883px;
+        width: 100%;
     }
-
     .footer-container {
         display: flex;
         justify-content: space-between;
@@ -2338,13 +2461,16 @@ letter-spacing: 2.4px;
 }
 
 @media (max-width: 834px) {
+    .the-list {
+        padding-left: 4%;
+    }
     .dropbtn {
         padding: 12px;
         font-size: 12px;
     }
     .screen img {
-        padding-left: 10px;
-        width: 116px;
+        padding-left: 4%;
+        width: 15%;
     }
     .find h1 {
         margin-bottom: 9px;
@@ -2354,25 +2480,17 @@ letter-spacing: 2.4px;
     .find p {
         margin-left: -37px;
     }
-    .image-slider img {
-        width: 208px;
-        height: 200px;
-    }
     .gra {
-        font-size: 14px;
+        font-size: 13px;
         top: 67px;
-        width: 210px;
+        width: 202px;
     }
     .get p {
-        width: 470px;
-        margin-left: 188px;
+        margin-left: 0;
+        width: 84%;
+        padding-left: 19%;
     }
-    #id {
-        left: 568px;
-    }
-    #im {
-        left: 88px;
-    }
+
     header {
         padding: 17px 33px;
     }
@@ -2451,19 +2569,23 @@ letter-spacing: 2.4px;
         padding: 51px 47px;
     }
 
-    .footer {
-        width: 834px;
+    .gra {
+        font-size: 12px;
+        top: 67px;
+        width: 101%;
     }
-
-    .footer {
-        width: 833px;
+    .slider {
+        width: 108%;
+        height: 88%;
     }
-
     .image img {
         width: 231px;
         height: 252px;
     }
-
+    .arrow {
+        margin-top: -6%;
+        margin-left: 36%;
+    }
     .sponsorbar {
         margin-left: 291px;
     }
@@ -2471,9 +2593,25 @@ letter-spacing: 2.4px;
     #up img {
         left: 546px;
     }
+    .word {
+        top: 131px;
+        font-size: 27px;
+        left: 34%;
+    }
+    .image-slider img {
+        width: 100%;
+        height: 82%;
+    }
 }
 
 @media (max-width: 820px) {
+    .grid {
+        /* width: 0; */
+        display: grid;
+        grid-template-areas: "auto auto auto";
+        grid-gap: 2px;
+        padding: 40px 27px;
+    }
     .tools {
         width: 820px;
     }
@@ -2486,19 +2624,13 @@ letter-spacing: 2.4px;
         padding: 7px;
         font-size: 12px;
     }
-    .relative-image img {
-        top: 301px;
-        left: 646px;
-    }
-    .prices {
-        width: 808px;
-         }
-         
     .emails {
         width: 376px;
 
     }
-
+    .experts {
+        margin: 23px 12px;
+    }
     .faq {
         width: 820px;
         height: 513px;
@@ -2518,9 +2650,8 @@ letter-spacing: 2.4px;
         padding-left: 32px;
         height: 51px;
     }
-
-    .footer {
-        width: 820px;
+    .word {
+        left: 35%;
     }
 
     .design img {
@@ -2587,47 +2718,51 @@ font-size: 27px;
 left: 293px;
 }       
 .tain img {
-width: 220px;
-height: 184px;
+    width: 106%;
+    height: 87%;
 }
 .tain {
-width: 233px;
-}           
+    width: 80%;
+
+}         
+#id {
+    left: 68%;
+    width: 32%;
+}
+#im {
+    left: 0%;
+    top: 50%;
+    width: 30%;
+}
+#ig {
+    left: 33%;
+    top: 61%;
+}
+.relative-image img {
+    top: 47%;
+    left: 66%;
+}e  
 }
 @media (max-width: 768px) {
     .word {
         top: 130px;
     }
     .gra {
-        font-size: 12px;
-        width: 183px;
+        font-size: 11px;
+        width: 100%;
     }
-    .arrow {
-        margin-top: -8px;
-        margin-left: 283px;
+    .slider {
+        width: 105%;
+        height: 88%;
     }
+
     .image-slider img {
-        width: 189px;
-        height: 187px;
+        width: 97%;
+        height: 167px;
     }
-    #id {
-        left: 506px;
-        width: 231px;
-    }
-    .get p {
-        width: 470px;
-        margin-left: 163px;
-    }
-    #im {
-        left: 80px;
-        width: 184px;
-    }
-    #ig {
-        left: 350px;
-    }
-    .relative-image img {
-        left: 589px;
-    }
+ 
+
+
     .message input {
         width: 575px;
     }
@@ -2638,7 +2773,14 @@ width: 233px;
         margin-right: 17px;
     }
     .prices {
-        width: 735px;
+        padding-left: 9%;
+        display: grid;
+        width: 96%;
+        grid-gap: 2%;
+        grid-template-areas: "area area";
+    }
+    #none{
+        display: block;
     }
     .pro {
         margin-left: 6px;
@@ -2663,13 +2805,14 @@ width: 233px;
         position: fixed;
         top: 0;
         right: -314px;
+        /* z-index: 100; */
         height: 100vh;
         width: 306px;
         background-color: #E3E6F3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 70px 0 0 10px;
         transition: 0.3s;
-        z-index: 100;
+        z-index: 10000;
     }
     #close {
         display: block;
@@ -2839,16 +2982,24 @@ width: 233px;
         margin-top: 0px;
         font-size: 18px;
     }
-
-    .footer {
-        width: 770px;
+    .notify {
+        width: 58%;
     }
-
+    #job {
+        width: 66%;
+    }
     .aboutus {
         width: 645px;
     }
+    #job input {
+        width: 66%;
+    }
 }
-
+@media (max-width: 700px) {
+    .screen img {
+        width: 105px;
+    }
+}
 @media (max-width: 428px) {
     .log img {
         width: 150px;
