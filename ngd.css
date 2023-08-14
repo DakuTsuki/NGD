@@ -1264,6 +1264,7 @@ letter-spacing: 2.4px;
     display: flex;
     top: 158px;
     color: #00ac72;
+    font-size: 35px;
     left: 372px;
     opacity: 0;
 }
@@ -1342,7 +1343,10 @@ letter-spacing: 2.4px;
         transition: 5s;
         padding: 40px;
       }
-    
+      #navbar.active {
+        right: 0;
+        z-index: 100000;
+    }
 @media (min-width: 1460px) {
     .dropbtn {
         padding: 15px;
@@ -1356,6 +1360,12 @@ letter-spacing: 2.4px;
     }
     .user {
         top: -182px;
+    }
+    .grid {
+        grid-template-areas: "auto auto auto auto";
+    }
+    .arrow{
+        position: relative;
     }
     .footer {
         width: 1236px;
@@ -1469,11 +1479,85 @@ letter-spacing: 2.4px;
     }
     
 }
-
+@media (max-width: 1459px) {
+    .grid {
+        grid-template-areas: "auto auto auto auto";
+    }
+    .arrow{
+        position: relative;
+    }
+    .arrow {
+        margin-top: -1%;
+        margin-left: 38%;
+    }
+    .image-slider img {
+        width: 116%;
+        height: 87%;
+    }
+    
+    .experts {
+        margin: 38px 37px;
+    }
+    .prices {
+        display: flex;
+        justify-content: space-between;
+        width: 94%;
+    }
+    .slider {
+        display: flex;
+        overflow-x: scroll;
+        height: 262px;
+        justify-content: space-between;
+        width: 102%;
+    }
+    .screen img {
+        padding-left: 5%;
+        width: 16%;
+    }
+    .gra {
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        z-index: 1000;
+        top: 64px;
+        text-align: center;
+        width: 242px;
+    }
+    #none {
+        display: block;
+    }
+    #ia{
+        left: 9%;
+        top: 5%;
+    }
+    #im{
+            left: 9%;
+            top: 46%;
+            width: 17%;
+    }
+    #id {
+        left: 77%;
+    }
+    .relative-image img {
+        left: 76%;
+    }
+    #ig {
+        left: 44%;
+    }
+    .get p {
+        width: 39%;
+    }
+    .dropdown {
+        margin-right: 18px;
+    }
+}
 @media (max-width: 1114px) {
     #header {
         width: 100%;
         padding: 16px 17px;
+    }
+    .grid {
+        grid-template-areas: "auto auto auto auto";
     }
     #job {
         width: 308px;
@@ -1494,27 +1578,30 @@ letter-spacing: 2.4px;
     }
     .word {
         top: 139px;
-        left: 322px;
+        left: 329px;
+        font-size: 25px;
     }
     .grid {
         padding: 27px;
     }
     .tain img {
-        width: 244px;
-        height: 216px;   
-     }
+        width: 95%;
+        height: 83%;
+    }
      .grid {
         grid-gap: 0px;
     }
     .tain {
-        width: 269px;
+        width: 90%;
     }
     .portfolio {
         margin-left: 33%;
     }
     .screen img {
         padding-left: 30px;
-        width: 160px;
+    }
+    .screen img {
+        width: 16%;
     }
     .find h1 {
         margin-bottom: 14px;
@@ -1551,9 +1638,11 @@ letter-spacing: 2.4px;
         height: 50px;
         flex-shrink: 0;
     }
-    .prices {
-        margin-left: -24px;
-        width: 1084px;
+    .price-img span {
+        width: 97%;
+    }
+    .pro p {
+        width: 90px;
     }
     .info-name {
         width: 174px;
@@ -1576,10 +1665,7 @@ letter-spacing: 2.4px;
         left: 469px;
         top: 421px;
     }
-    .relative-image img {
-        top: 307px;
-        left: 859px;
-    }
+
     #id {
         left: 761px;
     }
@@ -1588,7 +1674,10 @@ letter-spacing: 2.4px;
         margin-left: 307px;
         font-size: 22px;
     }
-    
+    .prices {
+        margin-left: -24px;
+        width: 990px;
+    }
     header {
         padding: 16px 58px;
     }
@@ -1828,8 +1917,11 @@ letter-spacing: 2.4px;
     #subimage p {
         padding: 0 0px;
     }
+    .arrow{
+        position: relative;
+    }
 }
-@media (min-width: 885px) {
+@media (max-width: 999px) {
     .screen img {
         padding-left: 30px;
         width: 16%;
@@ -1893,7 +1985,7 @@ letter-spacing: 2.4px;
         padding: 0%;
         font-size: 14px;
         margin-right: 25%;
-        width: 106%;
+        width: 111%;
     }
     #job {
         width: 62%;
@@ -1914,16 +2006,21 @@ letter-spacing: 2.4px;
     .down{
         width: 30%;
     }
+    .arrow{
+        position: relative;
+    }
 }
+
 @media (max-width:884px) {
     .dropbtn {
-        padding: 13px;
+        padding: 10px;
         font-size: 15px;
         width: 102%;
-    }.word {
-        top: 144px;
+    }
+    .word {
+        top: 131px;
         font-size: 27px;
-        left: 294px;
+        left: 35%;
     }
     .sponsorbar {
         margin-left: 355px;
@@ -1961,6 +2058,8 @@ letter-spacing: 2.4px;
     #job button {
         color: #64AF7A;
         font-size: 12px;
+        /* padding: 2px; */
+        width: 60px;
     }
     .relative-image img {
         width: 167px;
@@ -2018,7 +2117,7 @@ letter-spacing: 2.4px;
     .word {
         top: 131px;
         font-size: 27px;
-        left: 33%;
+        left: 35%;
     }
     .tain img {
         width: 240px;
@@ -2596,7 +2695,7 @@ letter-spacing: 2.4px;
     .word {
         top: 131px;
         font-size: 27px;
-        left: 34%;
+        left: 36%;
     }
     .image-slider img {
         width: 100%;
@@ -2651,7 +2750,7 @@ letter-spacing: 2.4px;
         height: 51px;
     }
     .word {
-        left: 35%;
+        left: 36%;
     }
 
     .design img {
@@ -2696,10 +2795,6 @@ letter-spacing: 2.4px;
     #close {
         display: none;
     }
-    #navbar.active {
-        right: 0;
-        z-index: 100;
-    }
 
     #navbar li {
         margin-bottom: 23px;
@@ -2713,10 +2808,10 @@ letter-spacing: 2.4px;
 font-size: 24px;
 }
 .word {
-top: 124px;
-font-size: 27px;
-left: 293px;
-}       
+    font-size: 27px;
+    left: 38%;
+    top: 131px;
+}
 .tain img {
     width: 106%;
     height: 87%;
@@ -2741,10 +2836,11 @@ left: 293px;
 .relative-image img {
     top: 47%;
     left: 66%;
-}e  
+}
 }
 @media (max-width: 768px) {
     .word {
+        left: 41%;
         top: 130px;
     }
     .gra {
@@ -2818,10 +2914,7 @@ left: 293px;
         display: block;
     }
 
-    #navbar.active {
-        right: 0;
-        z-index: 100;
-    }
+
 
     #navbar li {
         margin-bottom: 23px;
@@ -2996,11 +3089,308 @@ left: 293px;
     }
 }
 @media (max-width: 700px) {
+    .image-slider img {
+        width: 92%;
+        height: 154px;
+    }
+    .word {
+        left: 44%;
+        top: 130px;
+    }
     .screen img {
-        width: 105px;
+        padding-left: 4%;
+        width: 15%;
+    }
+    .portfolio {
+        margin-left: 27%;
+    }
+    .gra {
+        font-size: 10px;
+    }
+    .arrow {
+        margin-top: -7%;
+        margin-left: 35%;
+    }
+    #freelance h1 {
+        width: 94%;
+    }
+    .footer-container {
+        width: 96%;
+    }
+    .gra {
+        font-size: 9px;
+        width: 91%;
+    }
+    .gra {
+        top: 60px;
+    }
+    .pro p {
+        width: 78px;
+    }
+    .relative-image img {
+        top: 47%;
+        left: 71%;
+    }
+    #ig {
+        left: 36%;
+        top: 61%;
+    }
+    #im{
+        left: 5%;
+        top: 46%;
+        width: 26%;
+    }
+    .message input {
+        width: 79%;
+    }
+    .grid {
+        position: relative;
+        z-index: 10000;
     }
 }
+@media (max-width: 648px) {
+    .word {
+        left: 46%;
+        top: 130px;
+    }
+}
+@media (max-width: 628px) {
+    .word {
+        left: 49%;
+        top: 130px;
+    }
+    .footer {
+        padding: 0 41px;
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+@media (max-width: 586px) {
+    .arrow {
+        margin-top: -20%;
+        margin-left: 32%;
+    }
+    .prices {
+        padding-left: 3%;
+    }
+    #freelance h1 {
+        font-size: 29px;
+        margin-top: 4px;
+    }
+    .word {
+        left: 49%;
+        font-size: 23px;
+        top: 125px;
+    }
+    .the-list p {
+        font-size: 14px;
+        width: 477px;
+    }
+    .portfolio {
+        margin-left: 18%;
+    }
+    footer span {
+        width: 75%;
+    }
+    #ia {
+        width: 31%;
+        left: 2%;
+        top: 2%;
+        height: 20%;
+    }
+    .get p {
+        margin-left: 0;
+        width: 98%;
+        padding-left: 6%;
+    }
+    #ig {
+        left: 33%;
+        top: 64%;
+        height: 17%;
+    }
+    .relative-image img {
+        top: 52%;
+        left: 67%;
+        width: 32%;
+        height: 16%;
+    }
+    #job {
+        width: 52%;
+        display: none;
+    }
+    .notify {
+        width: 29%;
+    }
+    #id {
+        left: 68%;
+        width: 32%;
+        height: 17%;
+    }
+    #im {
+        HEIGHT: 16%;
+        left: 0%;
+        top: 51%;
+        width: 34%;
+    }
+    .slider {
+        width: 103%;
+    }
+    .image-slider img {
+        width: 90%;
+        height: 60%;
+    }
+    .gra {
+        font-size: 8px;
+        width: 92%;
+        top: 25%;
+    }
+    #job input {
+        width: 58%;
+    }
+    #job {
+        width: 52%;
+    }
+    .screen img {
+        width: 75px;
+    }
+    .message input {
+        width: 81%;
+    }
+    .experts p {
+        width: 90%;
+    }
+    .left-arrow, .right-arrow {
+        padding: 3px 30px;
+    }
+
+    .gra {
+        font-size: 7px;
+        width: 92%;
+        top: 21%;
+    }
+}
+@media (max-width: 534px){
+    .word {
+        left: 52%;
+    }
+    #im {
+        HEIGHT: 18%;
+    }
+    #ig {
+        left: 35%;
+    }
+}
+@media (max-width: 502px) {
+    .word {
+        left: 54%;
+    }
+}
+@media (max-width: 499px) {
+    .left-arrow, .right-arrow {
+        padding: 0px 26px;
+    }
+    .arrow {
+        margin-top: -7%;
+        margin-left: 32%;
+    }
+    .word {
+        top: 40%;
+        left: 6%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 496px) {
+    .word {
+        top: 131px;
+        left: 6%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 494px) {
+    #freelance h1 {
+        font-size: 25px;
+        margin-top: -14px;
+        width: 76%;
+    }
+    .word {
+        top: 131px;
+        left: 6%;
+        font-size: 20px;
+    }
+    .prices {
+        grid-template-areas: "area";
+    }
+    .prices {
+        padding-left: 27%;
+    }
+    .experts a {
+        margin-top: 25%;
+        margin-left: 36%;
+    }
+    #svg {
+        left: 14%;
+        top: 45%;
+    }
+    .gra {
+        /* left: -4px; */
+        font-size: 7px;
+        width: 90%;
+        top: 21%;
+    }
+    .slider {
+        width: 117%;
+        height: 122%;
+    }
+    .swiper {
+        height: 9rem;
+    }
+    .file p {
+        font-size: 16px;
+    }
+    #ig {
+        top: 72%;
+    }
+    #im {
+        top: 57%;
+    }
+    .relative-image img {
+        top: 59%;
+    }
+    .the-list p {
+        width: 98%;
+    }
+    .message input {
+        width: 72%;
+    }
+    .footer-container ul li {
+        font-size: 11px;
+    }
+    .footer-container h3 {
+        font-size: 20px;
+    }
+    .footer-container {
+        display: grid;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 40px;
+        grid-template-areas: "auto auto";
+    }
+    .screen img {
+        width: 15%;
+    }
+    footer span {
+        width: 82%;
+        margin: 0 10%;
+    }
+}
+
 @media (max-width: 428px) {
+    .word {
+        top: 35%;
+        left: 2%;
+        font-size: 20px;
+    }
     .log img {
         width: 150px;
         height: 29px;
@@ -3025,13 +3415,9 @@ left: 293px;
         margin-top: -7px;
         margin-left: 9px;
         line-height: 25px;
-        width: 415px;
+        width: 90%;
     }
-    .word {
-        top: 98px;
-        font-size: 20px;
-        left: 216px;
-    }
+
     #header {
         padding: 16px 8px;
     }
@@ -3068,7 +3454,6 @@ left: 293px;
     }
     .screen img {
         padding-left: 2px;
-        width: 61px;
     }
     .slider {
         overflow-x: hidden;
@@ -3081,26 +3466,14 @@ left: 293px;
     .find p {
         font-size: 14px;
     }
-    .image-slider img {
-        width: 168px;
-        height: 161px;
-    }
     .gra {
-        top: 47px;
-    }
-    .gra {
-        font-size: 11px;
-        width: 170px;
-    }
-    .slider {
-        width: 221%;
-    }
-    .slider {
-        height: 163px;
+        font-size: 6px;
+        width: 87%;
+        top: 21%;
     }
     .arrow {
-        margin-top: -56px;
-        margin-left: 84px;
+        margin-top: -5%;
+        margin-left: 29%;
     }
     .left-arrow, .right-arrow {
         width: 11px;
@@ -3115,7 +3488,12 @@ left: 293px;
         display: block;
         justify-content: space-between;
         width: 119%;
-        padding: 0 94px;
+    }
+    .prices {
+        padding-left: 23%;
+    }
+    .prices {
+        width: 93%;
     }
     .price-img {
         margin-bottom: 38px;
@@ -3132,9 +3510,19 @@ left: 293px;
         width: 183px;
     }
     .experts a {
-        margin-top: 15px;
+        margin-top: -17px;
         padding: 10px 16px;
-        margin-left: 107px;
+        margin-left: 30%;
+    }
+    .likes p,
+    .views p{
+            font-size: 11px;
+    }
+    #views svg {
+        margin-top: -9px;
+    }
+    #likes {
+        margin-right: 19%;
     }
     .file svg {
         width: 53px;
@@ -3144,7 +3532,7 @@ left: 293px;
         font-size: 28px;
     }
     .file p {
-        font-size: 15px;
+        font-size: 13px;
     }
     .orders {
         margin-top: 24px;
@@ -3171,33 +3559,15 @@ left: 293px;
         width: 116px;
         height: 96px;
     }
-    #ia {
-        left: 24px;
-        top: 19px;
+    .file p {
+        font-size: 13px;
     }
     #im {
-        left: 14px;
-        width: 144px;
-    }
-    #ig {
-        left: 189px;
-    }
-    #id {
-        top: 10px;
-        left: 279px;
-        width: 140px;
-    }
-    #im {
-        top: 246px;
-    }
-    #ig {
-        top: 300px;
+        height: 20%;
     }
     .relative-image img {
-        top: 197px;
-    }
-    .relative-image img {
-        left: 306px;
+        left: 66%;
+        top: 56%;
     }
     .get {
         height: 443px;
@@ -3209,10 +3579,7 @@ left: 293px;
         font-size: 25px;
     }
     .the-list p {
-        margin-top: 6px;
-        font-size: 12px;
-        margin-bottom: 22px;
-        width: 399px;
+        width: 90%;
     }
     .message input {
         width: 325px;
@@ -3232,12 +3599,27 @@ left: 293px;
         padding-top: 80px;
     }
     .get p {
-        width: 287px;
-        margin-left: 78px;
+        width: 81%;
+        margin-left: 38px;
+        font-size: 14px;
     }
-    .get p {
-        font-size: 13px;
-        margin-top: 12px;
+    #ia {
+        width: 31%;
+        left: 2%;
+        top: 2%;
+        height: 20%;
+    }
+    #id {
+        left: 68%;
+        width: 32%;
+        height: 19%;
+    }
+    .slider {
+        width: 103%;
+    }
+    .experts p {
+        font-size: 14px;
+        margin-left: 0px;
     }
     .tain {
         width: 190px;
@@ -3250,14 +3632,8 @@ left: 293px;
         font-size: 13px;
     }
     .pro p {
-        width: 90px;
-        color: #5E6366;
-        font-size: 11px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: 11px;
-        margin-bottom: 10px;
+        width: 99%;
+        font-size: 9px;
     }
     .tain img {
         width: 188px;
@@ -3602,16 +3978,13 @@ opacity: 0.5;
     }
 
     .footer {
-        width: 428px;
-    }
-
-    .footer {
-        padding: 0 35px;
         display: block;
         justify-content: space-between;
-        width: 428px;
     }
-
+    .footer {
+        padding: 0 14px;
+        width: 90%;
+    }
     .footer-container {
         display: grid;
         justify-content: space-between;
@@ -3624,9 +3997,21 @@ opacity: 0.5;
         width: 90%;
         margin: 0 30px;
     }
+    .likes p, .views p {
+        font-size: 11px;
+    }
+    
 }
 
 @media (max-width: 414px) {
+    .word {
+        top: 131px;
+        left: 3%;
+        font-size: 21px;
+    }
+    .grid {
+        position: relative;
+    }
     .faq {
         width: 414px;
         height: 328px;
@@ -3649,10 +4034,7 @@ opacity: 0.5;
     .elevate .input[type="text"] {
         width: 196px;
     }
-    .footer {
-        padding: 0 14px;
-        width: 415px;
-    }
+
     footer span {
         margin: 0 13px;
     }
@@ -3693,13 +4075,50 @@ opacity: 0.5;
         left: -22px;
     }
 }
-
+@media (max-width: 408px) {
+    .portfolio {
+        margin-top: -3%;
+        margin-left: 13%;
+    }
+    .relative-image img {
+        left: 66%;
+        top: 56%;
+    }
+    #id {
+        left: 68%;
+        width: 32%;
+        height: 19%;
+    }
+    .the-list p {
+        width: 93%;
+    }
+    .likes p, .views p {
+        font-size: 11px;
+    }
+    .screen img {
+        padding-left: 2px;
+        width: 15%;
+    }
+}
+@media (max-width: 400px) {
+    .find h1 {
+        margin-left: -21px;
+    }
+    .find p {
+        margin-left: -22px;
+    }
+    .footer-container {
+        width: 90%;
+    }
+    .word {
+        top: 123px;
+        font-size: 20px;
+        left: 3%;
+    }
+}
 @media (max-width: 390px) {
     #freelance h1 {
         width: 377px;
-    }
-    .word {
-        font-size: 17px;
     }
     .tain img {
         width: 181px;
@@ -3721,16 +4140,11 @@ opacity: 0.5;
     }
     .screen img {
         padding-left: 2px;
-        width: 58px;
+        width: 15%;
     }
-    .find h1 {
-        margin-left: -49px;
-    }
-    .find p {
-        margin-left: -47px;
-    }
+
     .prices {
-        width: 109%;
+        width: 102%;
         padding: 0 57px;
     }
     .file p {
@@ -3753,13 +4167,13 @@ opacity: 0.5;
         top: 223px;
     }
     .relative-image img {
-        left: 267px;
+        left: 69%;
     }
     .message input[type="text"]{
         padding-left: 31px;
     }
     .the-list p {
-        width: 379px;
+        width: 93%;
     }
     .message input {
         width: 267px;
@@ -3894,8 +4308,16 @@ opacity: 0.5;
 }
 
 @media (max-width: 375px) {
+    .info-name svg {
+        margin-top: -8px;
+    }
+    .the-list p {
+        width: 90%;
+        font-size: 11px;
+    }
     #freelance h1 {
-        width: 363px;
+        width: 89%;
+        margin-bottom: 30px;
     }
     .word {
         font-size: 15px;
@@ -3911,16 +4333,35 @@ opacity: 0.5;
         margin-left: 8%;
     }
     .screen img {
-        padding-left: 0px;
-        width: 56px;
+        padding-left: 2px;
+        width: 15%;
+    }
+    .word {
+        font-size: 20px;
+        left: 3%;
     }
     .experts a {
-        margin-top: -5px;
-        padding: 10px 14px;
-        margin-left: 70px;
+                margin-left: 31%;
+    }
+    .prices {
+        width: 101%;
+        padding: 0 57px;
+    }
+    .swiper {
+        margin-top: -8px;
+        margin-left: -23px;
+    }
+    .image-slider img {
+        width: 97%;
+        height: 57%;
+    }
+    .gra {
+        font-size: 5px;
+        width: 95%;
+        top: 21%;
     }
     .file p {
-        font-size: 13px;
+        font-size: 12px;
     }
     #svg {
         left: 10px;
@@ -3935,9 +4376,11 @@ opacity: 0.5;
     .relative-image img {
         left: 253px;
     }
-    .the-list p {
-        width: 360px;
+    #freelance h1 {
+        width: 89%;
+        margin-bottom: 30px;
     }
+    
     .next h1 {
         width: 352px;
         font-size: 28px;
@@ -4005,46 +4448,84 @@ opacity: 0.5;
     }
 
     .footer {
-        width: 375px;
+        padding: 0 14px;
+        width: 90%;
     }
-
     .footer-container {
-        width: 325px;
+        width: 90%;
+    }
+    .get p {
+        margin-left: 2px;
+    width: 96%;
+    }
+    #ig {
+        left: 35%;
+    }
+    #im {
+        top: 57%;
+    }
+    #id {
+        left: 64%;
+    }
+    .relative-image img {
+        left: 66%;
+        top: 56%;
+    }
+    .footer-container {
+        width: 90%;
+    }
+    .find h1 {
+        margin-left: -18px;
+    }
+    .find p {
+        margin-left: -18px;
     }
 }
 
 @media (max-width: 360px) {
-    .slider {
-        width: 246%;
+    .footer {
+        width: 94%;
     }
-    .gra {
-        font-size: 10px;
-        width: 159px;
+    .tain {
+        width: 0%;
     }
-    .image-slider img {
-        width: 150px;
-        height: 147px;
+    .grid {
+        grid-gap: 5px;
     }
+    #freelance h1 {
+        margin-bottom: 0;
+    }
+ 
     #mobile {
         margin-top: -9px;
     }
     #freelance h1 {
-        width: 348px;
+        margin-top: 3%;
+        width: 97%;
     }
     #freelance h1 {
         font-size: 23px;
     }
     .word {
-        font-size: 15px;
-        left: 204px;
-        letter-spacing: 1.33px;
+        left: 3%;
+        top: 138PX;
+        font-size: 19px;
     }
     .logo img {
         width: 127px;
         height: 65px;
     }.screen img {
         padding-left: 0px;
-        width: 54px;
+        width: 15%;
+    }
+    .find h1 {
+        margin-left: -21px;
+    }
+    .find p {
+        margin-left: -21px;
+    }
+    .slider {
+        margin-left: 10px;
     }
     #id {
         width: 111px;
@@ -4056,7 +4537,9 @@ opacity: 0.5;
         width: 344px;
     }
     .experts p {
-        WIDTH: 227px;
+        font-size: 11px;
+        margin-left: 0px;
+        width: 91%;
     }
     .next h1 {
         width: 331px;
@@ -4271,18 +4754,46 @@ opacity: 0.5;
         margin-bottom: 10px;
     }
 
-    .footer-container {
-        width: 314px;
+    .file p {
+        font-size: 12px;
     }
-
-    .footer {
-        width: 354px;
+    #ig {
+        left: 35%;
+    }
+    #im {
+        top: 57%;
+    }
+    .message input {
+        width: 72%;
+    }
+    .the-list p {
+        font-size: 11px;
+        width: 93%;
+    }
+    .experts a {
+        margin-left: 30%;
+    }
+    #freelance h1 {
+        margin-top: 3%;
     }
 
     .emails {
         width: 322px;
     }
-
+    .prices {
+        width: 104%;
+        padding: 0 23%;
+        padding-left: 16%;
+    }
+    .arrow {
+        margin-top: -7%;
+        margin-left: 19%;
+    }
+    .relative-image img {
+        width: 30%;
+    }
+    #id {
+       left: 67%; }
     .sponsorbar img {
         width: 347px;
         height: 21px;
@@ -4302,20 +4813,11 @@ opacity: 0.5;
         width: 112px;
     }
     #freelance h1 {
-        width: 279px;
+        font-size: 18px;
+        width: 90%;
     }
-    #freelance h1 {
-        font-size: 20px;
-    }
-    .word {
-        font-size: 20px;
-        left: 11px;
-        top: 121px;
-        letter-spacing: 1.33px;
-    }
-    .grid {
-        padding: 43px 9px;
-    }
+
+
     .tain {
         width: 130px;
     }
@@ -4327,50 +4829,29 @@ opacity: 0.5;
         margin-top: -16px;
         margin-left: 2%;
     }
-    .screen img {
-        width: 47px;
+
+ 
+    .file p {
+        font-size: 10px;
     }
-    .find h1 {
-        margin-left: -56px;
-    }
-    .find h1 {
-        font-size: 19px;
-        margin-top: 12px;
-    }
-    .find p {
-        margin-left: -56px;
-    }
-    .image-slider img {
-        width: 135px;
-        height: 133px;
-    }
-    .gra {
-        font-size: 9px;
-        width: 136px;
-    }
-    .arrow {
-        margin-top: -88px;
-        margin-left: 29px;
-    }
-    .experts h1 {
-        font-size: 20px;
-    }
-    .experts p {
-        font-size: 12px;
-    }
-    .experts p {
-        WIDTH: 265px;
+    #svg {
+        left: 2px;
+        top: 58px;
     }
     .prices {
-        padding: 0 41px;
+        padding: 0 17px;
+    }
+    .experts a {
+        margin-left: 24%;
+    }
+    .message input[type="text"] {
+        padding-left: 20px;
+    }
+    .message input {
+        width: 70%;
     }
     .pro p {
         width: 90px;
-    }
-    .experts a {
-        margin-top: -15px;
-        padding: 10px 19px;
-        margin-left: 50px;
     }
     .imp h1 {
         font-size: 24px;
@@ -4378,93 +4859,24 @@ opacity: 0.5;
     .imp {
         padding-top: 5px;
     }
-    .file svg {
-        width: 40px;
-        height: 39px;
-    }
-    .file h3 {
-        font-size: 24px;
-    }
-    .file p {
-        font-size: 11px;
-    }
-    #svg {
-        width: 28px;
-    }
-    #svg {
-     top: 44px;
-    }
-    #ia {
-        width: 100px;
-    }
-    #ia {
-        top: 7px;
-    }
-    #id {
-        left: 204px;
-    }
-    #im {
-        left: 4px;
-        width: 107px;
-        height: 79px;
-    }
-    #ig {
-        left: 114px;
-    }
-    #ig {
-        top: 273px;
-    }
-    .relative-image img {
-        width: 111px;
-        height: 90px;
-    }
-    .get h1 {
-        font-size: 16px;
-    }
-    .get p {
-        margin-left: 30px;
-    }
-    .get p {
-        font-size: 10px;
-        margin-top: 12px;
-        width: 266px;
-    }
-
-    .get a {
-        padding: 6px 16px;
-        font-size: 12px;
-        margin-top: -11px;
-    }
-    .relative-image img {
-        width: 103px;
-        height: 83px;
-    }
-    .relative-image img {
-        left: 215px;
+    #none{
+        display: block;
     }
     .the-list h1 {
         font-size: 21px;
     }
     .the-list p {
-        width: 307px;
+        width: 93%;
     }
     .the-list p {
         font-size: 10px;
     }
-    .message input {
-        width: 224px;
-    }
+  
     #im {
         top: 198px;
     }
     .experts a {
         font-size: 15px;
-    }
-    .footer {
-        width: 320px;
-    }
-    .footer-container {
-        width: 303px;
     }
     #portfolio {
         padding: 9px 25px;
@@ -4476,6 +4888,32 @@ opacity: 0.5;
     }
     .grid {
         padding: 43px 0px;
-        margin-left: 29px;
+        margin-left: 9px;
+    }
+    #ia {
+        width: 27%;
+        height: 16%;
+    }
+    #id {
+        left: 68%;
+        width: 31%;
+    }
+    #im {
+        top: 56%;
+        width: 28%;
+        height: 17%;
+    }
+    .relative-image img {
+        left: 67%;
+    }
+    .footer-container{
+        width: 99%;
+    }
+}
+@media (max-width: 280px){
+    .word {
+        left: 3%;
+        top: 166PX;
+        font-size: 19px;
     }
 }
