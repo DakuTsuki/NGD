@@ -1262,7 +1262,7 @@ letter-spacing: 2.4px;
 .word {
     position: absolute;
     display: flex;
-    top: 158px;
+    top: 181px;
     color: #00ac72;
     font-size: 35px;
     left: 372px;
@@ -2013,7 +2013,7 @@ letter-spacing: 2.4px;
 
 @media (max-width:884px) {
     .dropbtn {
-        padding: 10px;
+        padding: 6px;
         font-size: 15px;
         width: 102%;
     }

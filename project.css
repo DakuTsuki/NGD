@@ -26,6 +26,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+#job button{
+        padding: 7px;
+}
+#job input {
+    width: 65%;
+}
 .message-center input {
     display: flex;
     width: 942px;
@@ -206,32 +212,90 @@ color: #fff;
         left: 592px;
         top: 1057px;
     }
+    .dropdown-conten {
+        min-width: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 1269px) {
+    .message-center {
+        margin: 67px 133px;
+        margin-left: 5%;
+    }
+    .full-project h1 {
+        margin-left: 4%;
+    }
+    #job button {
+        padding: 9px;
+        width: 64px;
+        /* margin-top: -37px; */
+    }
+    .dropbt input {
+        margin-top: -5px;
+    }
 }
 @media (max-width: 1114px){
     .message-center {
-        margin: 66px 48px;
-    }
-    .message-center {
-        width: 998px;
+        width: 84%;
         height: 1420px;
+        margin-left: 4%;
+    }
+    .full-project h1 {
+        margin-left: 3%;
     }
     .message-center input {
-        width: 801px;
+        width: 90%;
         height: 42px;
+    }
+    .dropbt input {
+        width: 252px;
+    }
+
+    .drop-image {
+        display: flex;
+        width: 90%;
+    }
+    .message-center textarea {
+        width: 90%;
+    }
+    .links {
+        margin-left: 64%;
+        width: 26%;
+    }
+    footer span {
+        width: 93%;
+    }
+}
+@media (max-width: 996px) {
+    .message-center {
+        width: 92%;
+        height: 1420px;
+        margin-left: 4%;
+    }
+}
+@media (max-width: 918px) {
+    .message-center {
+        padding-left: 36px;
+    }
+    .message-center textarea {
+        width: 768px;
+    }
+    .message-center input {
+        width: 768px;
     }
     .drop-image {
         display: flex;
-        width: 809px;
+        width: 768px;
     }
-    .message-center textarea {
-        width: 812px;
-    }
-    .links {
-        margin-left: 603px;
-            width: 22%;
+    .dropbt input {
+        width: 252px;
     }
 }
+
 @media (max-width: 884px) {
+    .dropbt input {
+        margin-top: -5px;
+    }
     .message-center {
         margin: 67px 35px;
     }
@@ -259,6 +323,11 @@ color: #fff;
         margin-top: 27px;
         margin-left: 455px;
     }
+    .dropbtn {
+        padding: 6px;
+        font-size: 14px;
+        width: 123%;
+    }
 }
 @media (max-width: 834px) {
     .full-project h1 {
@@ -281,6 +350,34 @@ color: #fff;
     }
     .full-project h1 {
         margin-left: 30px;
+    }
+    .dropbtn {
+        padding: 6px;
+        font-size: 13px;
+        width: 121%;
+    }
+}
+@media (max-width:802px) {
+    .dropbtn {
+        padding: 6px;
+        font-size: 13px;
+        width: 127%;
+    }
+    .message-center {
+        padding-left: 23px;
+    }
+    .message-center {
+        width: 756px;
+        margin-top: 35px;
+    }
+}
+@media (max-width:785px){
+    .message-center {
+        width: 740px;
+        margin-top: 35px;
+    }
+    .dropbt input {
+        margin-top: -5px;
     }
 }
 @media (max-width: 768px) {
@@ -306,14 +403,133 @@ color: #fff;
         left: 460px;
         top: 1012px;
     }
-    .links {
-        margin-left: 417px;
-    }
     .comment {
         margin-left: -24px;
     }
+    .links {
+        width: 35%;
+        margin-left: 61%;
+    }
+}
+@media (max-width: 720px) {
+    .message-center {
+        width: 95%;
+    }
+    .message-center input {
+        width: 95%;
+    }
+    .message-center textarea {
+        width: 95%;
+    }
+    .drop-image {
+        width: 95%;
+    }
+    .dropbt input {
+        margin-top: -5px;
+    }
+    .drop-image ul {
+        width: 101%;
+    }
+    .drop-image ul li {
+        font-size: 11px;
+    }
+
+    .dropdow {
+        width: 54%;
+    }
+    .message-center h5 {
+        left: 362px;
+        top: 1019px;
+    }
+}
+@media (max-width: 588px) {
+    .message-center h5 {
+        left: 324px;
+        top: 1019px;
+        font-size: 12px;
+    }
+    .message-center span {
+        font-size: 13px;
+    }
+    .links {
+        width: 40%;
+        margin-left: 55%;
+    }
+    footer span {
+        width: 82%;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 490px) {
+    .full-project h1 {
+        font-size: 20px;
+        margin-left: 27px;
+    }
+    .drop-image ul li {
+        font-size: 9px;
+    }
+    .message-center h5 {
+        left: 140px;
+        top: 1051px;
+        font-size: 12px;
+    }
+    .dropbt input {
+        font-size: 9px;
+        margin-top: -5px;
+        padding-left: 0;
+        width: 155px;
+    }
+    .dropdow {
+      
+        width: 67%;
+    }
+    .links {
+        width: 48%;
+        margin-left: 47%;
+    }
+}
+@media (max-width: 434px) {
+    .links {
+        width: 50%;
+        margin-left: 46%;
+    }
+    .drop-image ul {
+        width: 103%;
+    }
+    .dropbt input {
+        font-size: 7px;
+        margin-top: -5px;
+        padding-left: 0;
+        width: 105px;
+    }
+    .dropdow {
+        width: 60%;
+    }
+    .dropdown-conten {
+        min-width: 101%;
+    }
+    .message-center h5 {
+        left: 276px;
+        top: 1074px;
+        font-size: 11px;
+    }
+    .message-center span {
+        font-size: 12px;
+    }
+    .full-project h1 {
+        font-size: 27px;
+    }
+    .drop-image ul li {
+        font-size: 9px;
+    }
 }
 @media (max-width: 428px) {
+    footer span {
+        width: 87%;
+    }
+    .message-center {
+        width: 91%;
+    }
     .full-project h1 {
         font-size: 30px;
     }
@@ -326,21 +542,24 @@ color: #fff;
         line-height: normal;
         margin-top: 25px;
     }
-    .message-center {
-        width: 387px;
+    .dropdow {
+        width: 71%;
     }
     .message-center label {
         font-size: 16px;
     }
-    .message-center input {
-        width: 329px;
+    .message-center h5 {
+        left: 122px;
+        top: 968px;
+    }
+    .links {
+        width: 53%;
+        margin-left: 44%;
     }
     .message-center {
         padding-left: 24px;
     }
-    .drop-image {
-        width: 329px;
-    }
+
     .drop-image svg {
         margin-bottom: 8px;
         margin-top: 11px;
